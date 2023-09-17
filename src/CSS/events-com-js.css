@@ -1,0 +1,31 @@
+ .show-text1{
+    position: absolute;
+    display: flex;
+    gap: 5px;
+}
+
+.show-text2{
+    position: absolute;
+    display: flex;
+    gap: 5px;
+}
+
+.show-text3 {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+}
+
+
+.slider {
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+
+.sliderParcela {
+    opacity: 1;
+}
+
+
+
+

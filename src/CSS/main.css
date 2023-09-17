@@ -1,0 +1,336 @@
+@media (max-width: 1280px) {
+
+   .trackinformation div p,
+   i {
+      font-size: 14px;
+   }
+
+   .bottom {
+      height: 90px;
+   }
+
+   .bottom .button-ouro img {
+      height: 90px;
+   }
+
+   nav .position-responsive-icons {
+      top: 30px;
+      
+      
+   }
+
+   
+
+   .bottom nav .iconsmenu li {
+      display: flex;
+      font-size: 20px;
+      flex-wrap: wrap;
+   }
+
+   .menu-choices .menu {
+      font-size: 12px;
+   }
+
+   .sectionimgclhotes img {
+      width: 200px;
+      height: 300px;
+      border-radius: 10px;
+   }
+
+   .sectionimgclhotes {
+      width: 100vw;
+   }
+
+   .social-networks p {
+      margin-top: 5px;
+
+   }
+
+   footer {
+      padding: 0 50px;
+   }
+
+   footer .section-registration label {
+      font-size: 18px;
+   }
+
+
+
+   footer img {
+      width: 200px;
+   }
+
+   footer h4,
+   p,
+   li {
+      font-size: 11px;
+
+   }
+
+
+}
+/* width(990px) */
+
+@media (max-width:990px){
+   .position-responsive-icons {
+      display: none;
+   }
+
+   .sectionimgclhotes-father{
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      background-color: var(--FEF2E3);
+   }
+   
+   .sectionimgclhotes{
+      gap: 25px;
+   }
+
+   .login-responsive ul{
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      line-height: 30px;
+   }
+
+
+   footer {
+      width: 100vw;
+   }
+   
+   footer .registration .title h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 600;
+      margin: 0;
+      color: var(--2f3f4c);
+      
+   
+   }
+   
+   footer .registration .title{
+      height: 200px;
+      width: 100%;
+      padding: 0;
+   }
+   
+   
+   footer .main-content {
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   
+   .social-networks {
+      height: 300px;
+   }
+   
+   footer .footer-social-networks p {
+      font-size: 15px;
+   }
+   
+   footer .registration .email-btn button {
+      font-size: 10px;
+      padding: 3px 10px;
+      border-radius: 5px;
+   
+   }
+   
+   footer .registration .email-btn input {
+      height: 33px;
+      border-radius: 5px;
+   }
+   
+   footer .checkbox p span {
+      font-size: 15px;
+   }
+   
+   
+   .andress p {
+      font-size: 12px;
+      text-align: center;
+      line-height: 20px;
+   }
+   
+   .rodape-menu {
+      display: none;
+   }
+   
+   /* validation */
+   .validation{
+      display: flex;
+      color: red;
+      font-size: 8px;
+      font-weight: 900;
+      justify-content: center;
+      flex-direction: row;   
+   }
+}
+
+/* width (425px) */
+
+@media (max-width: 425px) {
+
+
+   .trackinformation div p,
+   i {
+      font-size: 14px;
+   }
+
+   .bottom {
+      height: 70px;
+   }
+
+   .bottom .button-ouro img {
+      height: 70px;
+   }
+
+   .position-responsive-icons {
+      display: none;
+   }
+
+   .bottom nav .iconsmenu li {
+      font-size: 20px;
+   }
+
+   .labelstyle {
+      display: none;
+
+   }
+
+   .ocultar {
+      display: none;
+   }
+   .menu-choices-geral{
+      overflow: none;
+   }
+
+   .menu-choices-geral .paragraph-div{
+      display: flex;
+      margin-bottom: 90px;
+      
+   }
+
+   .menu-choices-geral .linha-slim{
+      /* background-color: blue; */
+      margin-top: 10px;
+      padding: 0;
+   }
+
+
+   main .responsive-image picture .section img {
+      display: flex;
+      width: 43vw;
+      height: 240px;
+   }
+
+   main section picture div:hover {
+      height: 47vh;
+   }
+
+   
+
+   main section picture .section {
+      display: flex;
+      flex-wrap: wrap;
+      width: 45vw;
+      align-items: center;
+      height: 45vh;
+      border-radius: 10px;
+      text-align: center;
+      justify-content: center;
+   }
+
+
+   main section picture .section p{
+      display: flex;
+      margin: 0;
+      padding: 0;
+      align-items: start;
+   }
+  
+
+
+footer {
+   width: 100vw;
+
+}
+
+footer .registration .title h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 12px;
+   font-weight: 600;
+   margin: 0;
+   color: var(--2f3f4c);
+   
+
+}
+
+footer .registration .title{
+   height: 200px;
+   width: 100%;
+   padding: 0;
+}
+
+
+footer .main-content {
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.social-networks {
+   height: 300px;
+}
+
+footer .footer-social-networks p {
+   font-size: 15px;
+}
+
+footer .registration .email-btn button {
+   font-size: 10px;
+   padding: 3px 10px;
+   border-radius: 5px;
+
+}
+
+footer .registration .email-btn input {
+   height: 33px;
+   border-radius: 5px;
+}
+
+footer .checkbox p span {
+   font-size: 15px;
+}
+
+
+.andress p {
+   font-size: 12px;
+   text-align: center;
+   line-height: 20px;
+}
+
+.rodape-menu {
+   display: none;
+}
+
+/* validation */
+.validation{
+   display: flex;
+   color: red;
+   font-size: 8px;
+   font-weight: 900;
+   justify-content: center;
+   flex-direction: row;   
+}
+
+}

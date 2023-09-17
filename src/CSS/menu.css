@@ -1,0 +1,199 @@
+header .trackinformation {
+    background-color: var(--000000);
+    color: var(--FFFFFF);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+    height: 25px;
+    align-items: center;
+}
+
+header .trackinformation p{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+
+
+.bottom {
+    width: 100%;
+    height: 130px;
+    background-color: var(--FFFFFF);
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    
+}
+
+.bottom .button-ouro{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.bottom .button-ouro img {
+    height: 130px;
+}
+
+.position-responsive-icons{
+    display: flex;
+    justify-content: end;
+    right: 100px;
+    position: absolute;
+    top: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom nav .iconsmenu{
+    display: flex;
+    gap: 40px;
+}
+
+
+.bottom nav .iconsmenu li {
+    font-size: 23px;
+}
+
+
+
+.bottom nav .iconsmenu li a:hover {
+    transition: 0.3s;
+    border: 0 solid var(--000000);
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+
+
+.labelstyle li a {
+    color: var(--FFFFFF);
+}
+
+.labelstyle{
+    background-color: var(--000000);
+}
+
+.labelstyle i{
+    padding-left: 5px;
+}
+
+.labelstyle ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    gap: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sectionimgclhotes{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--FEF2E3);
+}
+
+.sectionimgclhotes img {
+    width: 305px;
+    height: 441px;
+}
+
+.formsection{
+    background-color: var(--000000);
+}
+
+.paragraph-div{
+    display: none;
+}
+
+/* menu-footer */
+
+.menu-choices-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 2.5vh;
+}
+
+
+.menu-choices-geral .menu-options {
+    display: flex;
+    flex-direction: column; 
+    background-color: var(--FFFFFF);
+    width: 280px;
+    border-radius: 10px 3.8% 10px 10px;
+    padding: 25px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 4px;
+    left: -50px;
+    gap: 15px;
+}
+
+.position-responsive{
+    width: 280px;
+    position: absolute;
+    z-index: 0;
+}
+
+.position-responsive .menu-options li:hover{
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.menu-choices-geral .menu-options li{
+    margin-top: 15px;
+    
+}
+
+.menu-choices .menu-options {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.menu-choices:hover .menu-options {
+    opacity: 1;
+}
+
+.menu-choices-geral .menu-options::-webkit-scrollbar {
+    border: 0 solid var(--2f3f4c);
+    width: 6px;
+    background-color: var(--FFFFFF);
+}
+
+.menu-choices-geral .menu-options::-webkit-scrollbar-thumb {
+    background-color: var(--DDDDDD);
+    border-radius: 10px;
+    
+}
+
+.menu-choices-geral .menu-options::-webkit-scrollbar-thumb:hover {
+    background-color: var(--2f3f4c);
+}
+
+
+
+.rodape-menu{
+    background-color: var(--000000);
+    width: 100%;
+    height: 20px;
+}
+
+
+
+.login-responsive{
+    display: none;
+}
+
+.menu-camisas{
+    display: none;
+}
+
+
+
