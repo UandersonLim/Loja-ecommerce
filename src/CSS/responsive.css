@@ -174,7 +174,7 @@
 
 /* width (425px) */
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
 
 
    .trackinformation div p,
@@ -236,7 +236,7 @@
    main .responsive-image picture .section{
       pointer-events: none;
       background-color: #FFFFFF;
-      box-shadow: 3px 3px 4px ;
+      /* box-shadow: 3px 3px 4px ; */
    }
    
 
